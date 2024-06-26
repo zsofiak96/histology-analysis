@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "histology-analysis"
+version = "0.1.0"
+description = "Classification of histology images"
+authors = ["zsofiak96 <kalosi.zsofia@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+pandas = "^2.2.2"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
